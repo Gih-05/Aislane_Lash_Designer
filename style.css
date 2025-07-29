@@ -7,10 +7,19 @@
 }
 
 html, body{
-    height: 50%;
+    height: 100%;
 }
 
 body{
     background: white;
     color: black;
+    font-family: "Inter", sans-serif, Calibri;
+    font-size: 0.96rem;
+    font-weight: 300;
+}
+
+.bg{
+    background: url(../img/img_promo.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
 }
