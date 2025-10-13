@@ -35,7 +35,7 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: fixed;
+    position: absolute;
     z-index: 100;
     width: 100%;
 }
@@ -122,11 +122,12 @@ h2{
 }
 
 section{
-    margin: 0 15px 20px 15px;
+    margin: 0 15px 10px 15px;
     clear: both;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
+/*Sobre*/
 .container1{
     display: flex;
 }
@@ -155,11 +156,35 @@ section{
 
 .sobre p{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-left: 25px;
 }
 
+/*Nossos Serviços*/
+.container2{
+    display: flex;
+}
+
+.sub_container2 .dir{float: right; z-index: 3;}
+.sub_container2 .margdir{margin-right: 1px; margin-top: 30px; margin-left: 5px;}
+.sub_container2 .w45{width: 45%;}
+
+.servicos p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 25px;
+}
+
+.servicos ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 25px;
+}
 
 
 
