@@ -124,7 +124,7 @@ h2{
 section{
     margin: 0 15px 10px 15px;
     clear: both;
-    padding-top: 10px;
+    padding-top: 10%;
 }
 
 /*Sobre*/
@@ -133,10 +133,10 @@ section{
 }
 
 .sub_container1 .esq{float: left; z-index: 3;}
-.sub_container1 .margdir{margin-right: 10px; margin-top: 55px; margin-left: 13px;}
-.sub_container1 .w40{width: 100%;}
+.sub_container1 .margdir{margin-right: 5px; margin-top: 10%; margin-left: 1px;}
+.sub_container1 .w45{width: 45%;}
 
-.sub_container1 .box1{
+/*.sub_container1 .box1{
     background: #5B2D34;
     width: 6.5rem;
     height: 18rem;
@@ -152,13 +152,22 @@ section{
     margin-top: -288px;
     margin-left: 125px;
     z-index: 4;
-}
+} */
 
 .sobre p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 25px;
+    margin-right: 2px;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 /*Nossos Serviços*/
@@ -167,7 +176,7 @@ section{
 }
 
 .sub_container2 .dir{float: right; z-index: 3;}
-.sub_container2 .margdir{margin-right: 1px; margin-top: 30px; margin-left: 5px;}
+.sub_container2 .margesq{margin-right: 1px; margin-top: 10%; margin-left: 5px;}
 .sub_container2 .w45{width: 45%;}
 
 .servicos p{
@@ -178,14 +187,22 @@ section{
     margin-right: 25px;
 }
 
-.servicos ul{
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 2px;
+}
+
+.curso ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 25px;
+    padding-left: 20px;
 }
-
 
 
 footer{
