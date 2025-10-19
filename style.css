@@ -127,7 +127,7 @@ section{
     padding-top: 10%;
 }
 
-/*Sobre*/
+/*Sobre | Curso*/
 .container1{
     display: flex;
 }
@@ -170,7 +170,7 @@ p{
     margin-right: 2px;
 }
 
-/*Nossos Serviços*/
+/*Nossos Serviços | Motivo | Atendimento Humanizado*/
 .container2{
     display: flex;
 }
@@ -202,6 +202,51 @@ ul{
     margin-left: 20px;
     margin-right: 25px;
     padding-left: 20px;
+}
+
+/*Mimos*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 63% auto;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 5%;
+    position: relative;
+}
+
+.grid-box1{
+    background: #000000;
+    width: 8rem;
+    height: 6rem;
+    margin-top: 5px;
+    z-index: 0;
+}
+
+.grid-box4{
+    background: #000000;
+    width: 8rem;
+    height: 6rem;
+    z-index: 0;
+}
+
+.box1{
+    background: #5B2D34;
+    position: absolute;
+    align-items: center;
+    justify-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 18rem;
+    height: 8rem;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.box1 ul{
+    color: white;
+    font-style: italic;
+    margin-top: 12px;
 }
 
 
