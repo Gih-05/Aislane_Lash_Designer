@@ -347,9 +347,54 @@ ul{
 }
 
 
+/*Contato*/
+
+.contato{
+    display: flex;
+}
+
+.box3{
+    background: #5B2D34;
+    width: 23.7rem;
+    height: 17rem;
+    color: white;
+    margin-left: -1rem;
+}
+
+.box3 h2{
+    color: white;
+}
+
+.box3 p{
+    margin-left: 10px;
+}
+
+.box3 a{
+    color: #808080;
+    font-style: italic;
+}
+
+.box3 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 43%;
+}
+
+.box3 li{
+    text-align: left;
+    font-size: 13px;
+}
+
+.maps{
+    margin-top: -7.6rem;
+    margin-right: 0.5rem;
+}
+
+
 footer{
-    padding: 30px 0;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
