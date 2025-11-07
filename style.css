@@ -450,7 +450,7 @@ footer{
     }
 
     p{
-        margin-top: 5rem;
+        margin-top: 3rem;
         font-size: 25px;
     }
 
@@ -610,5 +610,42 @@ footer{
         height: 8rem;
         border-radius: 50%;
     }
+
+    /*Contato*/
+
+    .contato{
+        margin-top: 10%;
+    }
+
+    .box3{
+        height: 30rem;
+    }
+
+    .box3 p{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .box3 ul{
+        margin-left: 5%;
+        margin-right: 43%;
+        margin-top: 3.5rem;
+    }
+
+    .box3 li{
+        font-size: 23px;
+    }
+
+    .maps{
+        margin-top: -12rem;
+        margin-right: 0.7rem;
+        height: 15rem;
+    }
+
+
+    footer{
+        text-align: center;
+    }
+
 }
 
