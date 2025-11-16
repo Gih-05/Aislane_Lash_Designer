@@ -173,7 +173,7 @@ p{
 }
 
 
-/*Nossos Serviços | Motivo | Atendimento Humanizado*/
+/*Nossos Serviços | Motivo | Cuidados | Atendimento Humanizado*/
 .container2{
     display: flex;
 }
@@ -191,6 +191,14 @@ p{
 }
 
 .motivos  p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 25px;
+}
+
+.cuidados  p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -495,7 +503,7 @@ ul{
         padding-left: 20px;
     }
 
-    /*Nossos Serviços | Motivos | Atendimento Humanizado*/
+    /*Nossos Serviços | Motivos | Cuidados | Atendimento Humanizado*/
     
     .sub_container2 .margesq{margin-top: 5px; margin-left: 5px;}
     .sub_container2 .w45{width: 40%;}
@@ -505,6 +513,10 @@ ul{
     }
 
     .motivos p{
+        margin-left: 10px;
+    }
+
+    .cuidados p{
         margin-left: 10px;
     }
 
@@ -737,7 +749,7 @@ ul{
         padding-left: 30px;
     }
 
-    /*Nossos Serviços | Motivos | Atendimento Humanizado*/
+    /*Nossos Serviços | Motivos | Cuidados | Atendimento Humanizado*/
     
     .sub_container2 .margesq{margin-top: 7px; margin-left: 5px;}
     .sub_container2 .w45{width: 30%;}
@@ -747,6 +759,10 @@ ul{
     }
 
     .motivos p{
+        margin-left: 20px;
+    }
+
+    .cuidados p{
         margin-left: 20px;
     }
 
@@ -922,16 +938,20 @@ ul{
     }
 
     nav a{
-        padding: 10px;
+        padding-left: 10px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        margin-bottom: 1px;
+        margin-top: 1px;
         text-decoration: underline gray;
         display: inline-block;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .bg{
         background: url(../img/img_promo2.png) no-repeat center;
         background-size: cover;
-        height: 100%;
+        height: 79%;
     }
 
     section{
@@ -965,13 +985,23 @@ ul{
         display: flex;
         width: 50%;
     }
-    
-    .container1{
-        display: flex;
-    }
 
     .sobre h2{
         margin-left: 15rem;
+    }
+
+    .curso{
+        display: flex;
+        width: 50%;
+        margin-top: -14.4rem;
+    }
+
+    .curso h2{
+        margin-left: 15rem;
+    }
+    
+    .container1{
+        display: flex;
     }
 
     .sub_container1 .margdir{margin-right: 20px; margin-left: 35px;}
@@ -984,17 +1014,18 @@ ul{
     }
     
     .curso p{
-        margin-right: 10px;
-        margin-left: 30px;
+        margin-top: 3rem;
+        margin-right: 70px;
+        margin-left: 50px;
     }
 
     .curso ul{
-        margin-left: 30px;
+        margin-left: 65px;
         margin-right: 25px;
         padding-left: 30px;
     }
 
-    /*Nossos Serviços | Motivos | Atendimento Humanizado*/
+    /*Nossos Serviços | Motivos | Cuidados | Atendimento Humanizado*/
 
     .servicos{
         display: flex;
@@ -1004,6 +1035,25 @@ ul{
         margin-left: 48%;
     }
 
+    .motivos{
+        display: flex;
+        width: 50%;
+        position: relative;
+        margin-left: 48%;
+    }
+
+    .cuidados{
+        display: flex;
+        width: 50%;
+        position: relative;
+        margin-left: 48%;
+    }
+
+    .atdmto_humanizado{
+        display: flex;
+        width: 50%;
+    }
+
     .container2{
         display: flex;
     }
@@ -1011,6 +1061,21 @@ ul{
     .servicos h2{
         margin-left: 15rem;
         width: 50%;
+    }
+
+    .motivos h2{
+        margin-left: 9rem;
+        width: 70%;
+    }
+
+    .cuidados h2{
+        margin-left: 9rem;
+        width: 70%;
+    }
+
+    .atdmto_humanizado h2{
+        margin-left: 9rem;
+        width: 70%;
     }
     
     .sub_container2 .margesq{margin-left: 20px; margin-right: 35px;}
@@ -1029,12 +1094,33 @@ ul{
     }
 
     .motivos p{
-        margin-left: 20px;
+        margin-top: 3rem;
+        margin-right: 10px;
+        margin-left: 70px;
     }
 
-    .atdmto_humanizado{
-        margin-left: 20px;
+    .motivos ul{
+        margin-left: 65px;
+        margin-right: 25px;
+        padding-left: 30px;
+    }
+
+    .cuidados p{
+        margin-top: 3rem;
         margin-right: 10px;
+        margin-left: 70px;
+    }
+
+    .cuidados ul{
+        margin-left: 65px;
+        margin-right: 25px;
+        padding-left: 30px;
+    }
+
+    .atdmto_humanizado p{
+        margin-top: 3rem;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     
@@ -1087,10 +1173,25 @@ ul{
 
     /*Modelos*/
 
+    .modelos{
+        display: flex;
+        width: 50%;
+        position: relative;
+        margin-top: -14.5rem;
+    }
+
+    .artcl_modelos{
+        width: 80%;
+    }
+
+    .modelos h2{
+        margin-left: 14rem;
+    }
+
     .grid-container3{
         display: grid;
-        grid-template-columns: 12rem 12rem;
-        row-gap: 15rem;
+        grid-template-columns: 8.7rem 7rem;
+        row-gap: 6.5rem;
         margin-top: 30px;
         margin-right: 5%;
         margin-left: 9%;
@@ -1098,48 +1199,52 @@ ul{
     }
 
     .grid-box5{
-        width: 10rem;
-        height: 9rem;
+        width: 5rem;
+        height: 7rem;
         margin-top: 5px;
     }
 
     .grid-box8{
-        width: 10rem;
-        height: 9rem;
+        width: 5rem;
+        height: 7rem;
     }
 
     .box2{
-        width: 17rem;
-        height: 29.3rem;
+        width: 10rem;
+        height: 17rem;
         margin-left: 13%;
     }
 
     .box2 ul{
-        margin-top: 30px;
-        font-size: 20px;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
+
+    .box2 li{
+        font-size: 14px;
     }
 
     .line2{
-        width: 0.5rem;
-        height: 30rem;
-        margin-top: -31rem;
+        width: 0.3rem;
+        height: 18rem;
+        margin-top: -19.3rem;
+        margin-left: 50px;
     }
 
     .grid-container4{
         display: grid;
-        grid-template-columns: 8rem 8rem;
-        grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
+        grid-template-columns: 4rem 4rem;
+        grid-template-rows: 3rem 3rem 3rem 3rem 3rem;
         column-gap: 2rem;
         float: right;
-        margin-top: -32rem;
-        margin-left: 5px;
+        margin-top: -19rem;
         margin-right: 12%;
         position: relative;
     }
 
     .grid-container4 .grid-img{
-        width: 9rem;
-        height: 9rem;
+        width: 5rem;
+        height: 5rem;
         border-radius: 50%;
     }
 
