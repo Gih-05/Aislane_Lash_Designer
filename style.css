@@ -21,7 +21,7 @@ body{
 
 /*Transformar esse bg em um carrossel*/
 .bg{
-    background: url(../img/img_promo.png) no-repeat center;
+    background: url(img/img_promo.png) no-repeat center;
     background-size: cover;
     height: 80%;
 }
@@ -726,7 +726,7 @@ ul{
     }
 
     .bg{
-        background: url(../img/img_promo2.png) no-repeat center;
+        background: url(img/img_promo2.png) no-repeat center;
         background-size: cover;
         height: 67%;
     }
@@ -986,7 +986,7 @@ ul{
     }
 
     .bg{
-        background: url(../img/img_promo2.png) no-repeat center;
+        background: url(img/img_promo2.png) no-repeat center;
         background-size: cover;
         height: 79%;
     }
