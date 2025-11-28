@@ -423,6 +423,23 @@ ul{
     justify-items: center;
 }
 
+.back_to_top img{
+    width: 3rem;
+    position: fixed;
+    z-index: 500;
+    margin-left: 85%;
+    
+}
+
+.back_to_top{
+    cursor: pointer;
+    display: none;
+}
+
+.back-to-top-visible {
+    display: flex;
+}
+
 
 /* config. ipad mini | ipad air*/
 @media only screen and (min-width:600px){
@@ -664,6 +681,14 @@ ul{
 
     .footer p{
         margin-top: 10px;
+    }
+
+    .back_to_top img{
+        width: 3rem;
+        position: fixed;
+        z-index: 500;
+        margin-left: 90%;
+    
     }
 
 }
@@ -911,6 +936,14 @@ ul{
 
     .footer p{
         margin-top: 10px;
+    }
+
+    .back_to_top img{
+        width: 4rem;
+        position: fixed;
+        z-index: 500;
+        margin-left: 92%;
+        margin-top: -12rem;
     }
 
 }
@@ -1314,6 +1347,14 @@ ul{
     .footer p{
         margin-top: 3rem;
         font-size: 12px;
+    }
+
+    .back_to_top img{
+        width: 3rem;
+        position: fixed;
+        z-index: 500;
+        margin-left: 92%;
+        margin-top: 1px;
     }
 
 }
