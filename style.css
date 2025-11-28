@@ -428,7 +428,7 @@ ul{
     position: fixed;
     z-index: 500;
     margin-left: 85%;
-    
+    margin-top: -1rem;
 }
 
 .back_to_top{
